@@ -1,0 +1,100 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.img-logo {
+  width: 200px;
+}
+
+.anim-logo {
+  position: absolute;
+  width: 200px;
+  right: 10%;
+  top: 25%;  
+  -webkit-animation: ping 1.5s ease-in-out infinite;
+  animation: ping 1.5s ease-in-out infinite;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .img-logo {
+    width: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-logo {
+    width: 100px !important;
+  }
+  .d-xs--none {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .modal-dialog {
+    margin: 3rem auto !important;
+  }
+}
+
+.border-circle {
+  border-radius: 50%;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.background-transparent {
+  background-color: transparent !important;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-green {
+  color: #0dbb0d;
+}
+
+.color-light-blue {
+  color: #0c78dd;
+}
+
+.btn-wallet:hover {
+  color: black !important;
+}
+
+.btn-wallet:focus {
+  color: black !important;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-size--small {
+  font-size: 13px;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
