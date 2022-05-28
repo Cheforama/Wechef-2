@@ -1,0 +1,29 @@
+export const GET_ERRORS = "GET_ERRORS"
+export const CLEAR_ERRORS = "CLEAR_ERRORS"
+
+export const SET_WALLET_ACCOUNT = "SET_WALLET_ACCOUNT"
+export const SET_CONNECTED = "SET_CONNECTED"
+export const GET_USER_PROFILE = "GET_USER_PROFILE"
+
+export const GET_COLLECTION_LIST = "GET_COLLECTION_LIST"
+export const GET_COLLECTION = "GET_COLLECTION"
+export const GET_MY_COLLECTIONS = "GET_MY_COLLECTIONS"
+export const SET_PENDING = "SET_PENDING"
+export const SET_SUCCESS = "SET_SUCCESS";
+export const GET_FLOOR_PRICE = "GET_FLOOR_PRICE"
+export const GET_OWNERS = "GET_OWNERS"
+
+export const GET_ITEMS = "GET_ITEMS"
+export const GET_ITEM_DETAIL = "GET_ITEM_DETAIL"
+export const GET_TOTAL_ITEMS = "GET_TOTAL_ITEMS"
+
+export const GET_HISTORIES = "GET_HISTORIES"
+export const ADD_HISTORY = "ADD_HISTORY"
+export const GET_TOTAL_COUNT = "GET_TOTAL_COUNT"
+
+export const GET_LISTS = "GET_LISTS"
+export const ADD_LIST = "ADD_LIST"
+
+export const GET_TOP_SELLERS = "GET_TOP_SELLERS"
+
+export const GET_REPORT_HISTORY = "GET_REPORT_HISTORY"
